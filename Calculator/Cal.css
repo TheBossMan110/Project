@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    width: 200px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
