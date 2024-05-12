@@ -1,0 +1,111 @@
+/* navbar */
+#navbar {
+    background-color: gray;
+}
+
+#logo {
+    margin-left: 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+#logo span {
+    color: black;
+}
+
+#logo #span1 {
+    font-size: 30px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-item .nav-link {
+    font-size: 20px;
+    font-family: "poppins";
+    color: white;
+    margin-left: 2px;
+    text-shadow: 0px 0px 1px gray;
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+}
+
+.dropdown-menu li a {
+    color: white;
+    transition: 0.5s ease;
+}
+
+.dropdown-menu li a:hover {
+    background-color: gray;
+    color: black;
+}
+
+#search input {
+    border-radius: 50px;
+    border: none;
+}
+
+#search button {
+    border-radius: 50px;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+}
+
+/* nvbar */
+
+.card {
+    margin-top: 1rem;
+    width: 220px;
+    height: 330px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 5px 5px 0px #5a5a5a,
+        -5px 5px 0px #ffffff;
+}
+
+.card:hover {
+    transition: 1s all ease-in-out;
+    border: solid #000000;
+    border-radius: 5px;
+}
+.home{
+    margin-top: 2rem;
+color: gray;
+text-shadow: 1px 1px 1px black;
+border-bottom: 2px solid black;
+text-align: center;
+font-size: 45px;
+font-weight: 500;
+font-family: "poppins";
+}
+.card-title{
+    font-size: 20px;
+    text-align: center;
+    font-family: "poppins";
+}
+.price{
+    font-size: 20px;
+    color: #1e1e1e;
+    text-align: center;
+    font-family: "poppins";
+}
+
+#offer{
+    margin-top: 100px;
+}
+#offer i{
+    font-size: 32px;
+    color: black;
+}
